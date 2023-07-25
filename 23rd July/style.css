@@ -1,0 +1,24 @@
+.container{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li{ margin-right: 20px;}
+
+.menu li a {
+    background-color: blueviolet; color:white ; padding: 10px; display: inline-block;text-decoration: none; 
+}
+
+.row{
+    display:flex
+}
+.column{
+    padding-left: 10px;
+    padding-right: 10px;
+}
