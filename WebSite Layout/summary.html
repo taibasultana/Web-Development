@@ -1,0 +1,58 @@
+ flexbox:  
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        .container{
+            height: 500px;
+            border: 2px dotted slategray;
+            display: flex;
+            /* justify-content: stretch;
+            align-items: center; */
+        }
+        .box{
+            /* font-size: 3em; */
+            width: 200px;
+           
+            border: 3px dashed rebeccapurple;
+        }
+        #box-1{
+            /* order: 2; */
+        }
+        #box-2{
+            /* order: 1; */
+            flex-grow: 1;
+        }
+    </style>
+</head>
+<body>
+    <h1>I am flexible right now</h1>
+    <div class="container">
+      <div id="box-1" class="box">BOX-1</div>
+      <div id="box-2"  class="box">
+            <h3>BOX-2</h3>
+            <article class="blog">
+                <h4>blog-1</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error et maiores ad vero quisquam, distinctio similique nostrum sit labore quibusdam perspiciatis corrupti libero quod ea quo asperiores non iste magnam, id ut aliquam aut atque commodi laborum. Fuga laudantium nostrum quis soluta repudiandae sint possimus, libero voluptates incidunt deleniti quos!</p>
+            </article>
+            <article class="blog">
+                <h4>blog-2</h4>
+                <p>In inventore repellat animi adipisci officia amet! Vitae provident eum omnis tempore? Eos, nobis laboriosam in mollitia soluta beatae quisquam vitae sunt magnam hic natus aspernatur similique placeat, praesentium nesciunt, enim nihil. Deleniti earum qui pariatur voluptatem accusantium aut assumenda officia sed, nulla porro hic officiis est perspiciatis non repellendus?</p>
+            </article>
+            <article class="blog">
+                <h4>blog-3</h4>
+                <p>Officia nemo quaerat odio distinctio ipsam iusto, pariatur eligendi! Quibusdam esse, doloribus voluptatibus iusto, minus repellat repudiandae dolorem quas nesciunt fugiat eligendi vero id eius vel non est sint aut recusandae quam porro totam dicta. Recusandae voluptatem dicta voluptate tempore ab autem sit? Quisquam tenetur nostrum nemo quia consectetur architecto.</p>
+            </article>
+      </div>
+      
+    </div>
+</body>
+</html>
+
+
+
+ <h1> **CSS PROPERTISE **</h1>
